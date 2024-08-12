@@ -1,0 +1,62 @@
+/* style.css */
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin-left: ;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+img {
+    width: 50%
+}
+
+footer {
+    background-color: #373738 ;
+    padding: center;
+    color: white;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;            
+    margin: 0;
+}
+
+footer ul li {
+    display: inline-block; /* Makes <li> elements display next to each other */
+    padding: 10px 15px;    /* Adds padding inside each <li> element */
+    vertical-align: top;
+    
+    
+
+/*body {
+    background-color: blue;
+}*/
