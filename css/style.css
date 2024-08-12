@@ -1,35 +1,42 @@
 /* style.css */
 
+header {
+    display: flex;               /* Enables flexbox layout */
+    align-items: center;         /* Vertically centers the logo and nav */
+    justify-content: space-between; /* Optional: Distributes space between logo and nav */
+    padding: 10px;               /* Adds padding inside the header */
+}
+
+/* Styling for the logo */
+.logo img {
+    width: 100px;                /* Set the desired width for the logo image */
+}
+
+/* Inline-block styling for nav items */
 .inline-block {
     display: inline-block;
-    vertical-align: top;
 }
 
-
-
-.logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
+/* Styling for the navigation list */
+nav ul {
+    list-style: none;            /* Removes the default list styling */
+    margin: 0;                   /* Removes default margin */
+    padding: 0;                  /* Removes default padding */
 }
 
-nav {
-    width: 73%;
-    padding: 1%;
-}
-
-ul {
-    width: 50%;
-    margin-left: ;
+/* Styling for the list items */
+nav ul li {
+    margin-left: 20px;           /* Adds spacing between the list items */
 }
 
 .heroImg {
     height: 600px;
     padding: 25px;
+    text-align: center;
 }
 
 .content {
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -44,17 +51,23 @@ footer {
 }
 
 footer ul {
-    display: inline-block;
+    display: ;
     vertical-align: top;
     padding: 0;            
     margin: 0;
+    text-align: center;
 }
 
 footer ul li {
     display: inline-block; /* Makes <li> elements display next to each other */
-    padding: 10px 15px;    /* Adds padding inside each <li> element */
+    padding: 10px 30px;    /* Adds padding inside each <li> element */
     vertical-align: top;
     
+}
+    
+button {
+
+}
     
 
 /*body {
