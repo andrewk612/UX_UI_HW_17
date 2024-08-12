@@ -1,9 +1,9 @@
 /* style.css */
 
 header {
-    display: flex;               /* Enables flexbox layout */
-    align-items: center;         /* Vertically centers the logo and nav */
-    justify-content: space-between; /* Optional: Distributes space between logo and nav */
+    display: flex;               
+    align-items: center;         
+    justify-content: space-between; 
     padding: 10px;               /* Adds padding inside the header */
 }
 
